@@ -1,0 +1,363 @@
+
+* {
+    margin: 0;
+    padding: 0;
+   }
+   header, nav, main, aside, section, article, footer,
+   div {
+    display: block;
+   }
+   body {
+    background-color: #Fff;
+   }
+   #wrapper {
+    margin: 0px 32px;
+   }
+  header {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   }
+   #logo {
+    margin: 0px 32px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 64px;
+    width: 64px;
+   }
+   a {
+    text-decoration: none;
+   }
+   #logo span {
+    display: flex;
+    align-items: center; 
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    margin-left: 64px;
+    margin-top: 21px;
+   }
+    nav {
+
+       margin-left: 120px;
+     
+       }
+      nav a {
+        
+        color: #612999;
+        font-family: Nunito;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      
+        margin-right: 64px;
+       }
+       nav a:hover {
+        color: #c07ece;
+       }
+       
+      main{
+        margin-top: 39px;
+        
+      }
+     
+       #cover-photo-section {
+
+    
+    background-image: url("../images/bentoCaver.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 797px;
+       }
+       
+       #cover-photo-section h2 {
+        margin: 0px 32px;
+
+        width: 448px;
+        color: #612999;
+        font-family: Nunito;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+   
+       }
+       #cover-photo-section p {
+        margin: 0px 32px;
+        color: #000;
+        font-family: Nunito;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+   
+       }
+       #about{
+       margin-top: 32px;
+      
+       }
+       #about h2{
+      
+        color: #612999;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; 
+       }
+       #about p{
+        
+        color: #000;
+        text-align: justify;
+        font-family: Rubik;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140.625%; 
+       }
+      .cards-title{
+        margin-top: 32px;
+       }
+       .cards-title h1{
+        color: #612999;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+       }
+       .flex-container{
+        margin-top: 27px;
+        display: grid;
+        gap: 27px 32px;
+        margin-bottom: 319px;
+        align-content: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+       }
+       
+       .flex-item{
+       
+        position: relative;
+        
+        width: 376px;
+        height: 496px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        border-radius: 38px;
+        background: #EFECFF;
+        box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+       
+       }
+       .flex-item img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+       
+       }
+       [title~="bentoImg"]{
+        object-fit: cover;
+        width: 376px;
+        height: 276px;
+        border-radius: 38px;
+       }
+       .hart{
+        background: url("../images/heart 4.jpg");
+        position: absolute;
+        margin-top: 49px;
+        margin-left: 299px;
+        width: 23px;
+        height: 20px;
+        fill: #F51264;
+        z-index: 3;
+      
+       }
+       .Ellipse-heart{
+        background: url("../images/Ellipse heart 1.jpg");
+        border-radius: 50%;
+        position: absolute;
+        top: 35px;
+        left: 287px;
+        width: 47px;
+        height: 47px;
+        
+        z-index: 2;
+       
+        
+       }
+      
+       .cart {
+        position: absolute;
+        
+        top: 406px;
+       left: 262px;
+        background: url("../images/Ellipse cart 2.jpg");
+       
+        width: 63px;
+        height: 63px;
+        fill: #612999;
+        z-index: 2;
+       }
+    
+       .flex-item h3{
+        margin-right: 32px;
+        
+        position:absolute;
+        top: 297px;
+        left: 32px;
+        color: #000;
+        text-align: justify;
+        font-family: Abel;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+       }
+       .flex-item p{
+        margin-right: 32px;
+        
+        position:absolute;
+        top: 342px;
+        left: 32px;
+        color: #333;
+        font-family: Abel;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+       }
+       .flex-item h2{
+       
+        position:absolute;
+        top: 415px;
+        left: 32px;
+        color: #612999;
+        text-align: justify;
+        font-family: Abel;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+       }
+       
+     
+       footer {
+        position: fixed;
+        z-index: 3;
+        height: 287px;
+        width: 100%;
+        background-color : #EFECFF;
+      
+        bottom: 0;
+       }
+       footer section {
+        position: absolute;
+        top: 32px;
+       }
+       #footer-who-we-are {
+        position: absolute;
+        left: 32px;
+       }
+       #footer-who-we-are h2 {
+        color: #333;
+        font-family: Nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; 
+        text-transform: uppercase;
+       }
+       #footer-who-we-are ul {
+        position: relative;
+        top: 16px;
+       }
+       #footer-who-we-are a {
+    
+        color: #333;
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+       }
+       #footer-who-we-are li{
+        margin-bottom:  8px;
+       }
+       #footer-Follow-Us {
+        position: absolute;
+        left:  308px;
+       }
+       #footer-Follow-Us h2 {
+        color: #333;
+        font-family: Nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; 
+        text-transform: uppercase;
+       }
+       #footer-Follow-Us ul {
+        position: relative;
+        top: 16px;
+       }
+       #footer-Follow-Us a {
+       
+        color: #333;
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+       }
+       #footer-Follow-Us li{
+        margin-bottom:  8px;
+       }
+       #footer-social-icons-section{
+        display: flex;
+        position: absolute;
+        top: 182px;
+        left: 32px;
+       }
+       #footer-social-icons-section a{
+        text-decoration: none;
+        
+       }
+      
+      .twitter,.facebook,.instagram {
+        width: 24.618px;
+        height: 20px;
+        margin-right: 24px;
+      }
+
+      .twitter img,.facebook img,.instagram img {
+        width: 100%;
+        height: 100%;
+      }
+       .alive-text{
+        position: absolute;
+        top: 218px;;
+        left: 32px;
+       }
+       .alive-text p{
+        
+        color: #333;
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+       }
