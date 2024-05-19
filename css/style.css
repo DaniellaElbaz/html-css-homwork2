@@ -73,14 +73,12 @@
       }
      
        #cover-photo-section {
-
-    
-    background-image: url("../images/bentoCaver.jpg");
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    height: 797px;
+        background-image: url("../images/bentoCaver.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        height: 797px;
        }
        
        #cover-photo-section h2 {
@@ -363,4 +361,26 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+       }
+       #choose-photo-section{
+        margin-top: 32px;
+        
+       }
+       #choose-photo-section img {
+        margin-right: 31.71px;
+        border: 4px solid #E6DBFE;
+        height: 300px;
+       }
+       [title~="i love you"]{
+        width: 388.286px;
+      
+       }
+       [title~="bee"]{
+        width: 300px;
+        margin-right: 0.29px;
+    
+       }
+       [title~="happy anniversary"]{
+        width: 300px;
+       
        }
