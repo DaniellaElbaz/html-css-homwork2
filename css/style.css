@@ -364,7 +364,7 @@
        }
        #choose-photo-section{
         margin-top: 32px;
-        
+        width: 100%px;
        }
        #choose-photo-section img {
         margin-right: 31.71px;
@@ -424,7 +424,6 @@
         height: 42.385px;
     }
     
-    
     .list-details {
       margin-right: 16px;
         color: #000;
@@ -436,6 +435,7 @@
     }
     .contact{
       margin-top:32px ;
+     
     }
     .contact h2{
       color: #612999;
@@ -445,14 +445,17 @@
       font-weight: 500;
       line-height: 40px; 
     }
-    .flex-content{
+    .flex-contact{
       margin-top:32px;
-      width: 1136px;
+      width: 100%px;
       height: 503px;
       background: #EFECFF;
+      margin-bottom: 319px;
+      border-radius: 38px;
     }
-    .flex-content label{
-      margin-right: 16px;
+    .flex-contact  label{
+      margin-top:32px;
+      margin-left: 16px;
       color: #000;
       font-family: Rubik;
       font-size: 24px;
@@ -461,27 +464,37 @@
       line-height: 1.2;
     }
       input[type=text], textarea {
-      width: 100%; 
+
+     
+      width:30%; 
       padding: 12px; 
       border: 1px solid #ccc; 
       border-radius: 4px; 
       box-sizing: border-box; 
-      margin-top: 6px; 
+      margin-top: 32px; 
       margin-bottom: 16px; 
-      resize: vertical 
+      resize: vertical ;
+      margin-right: 52px;
     }
-    input[type=tel],textarea {
-      width: 100%; 
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+    input[type=number], textarea {
+     
+      width: 30%; 
       padding: 12px; 
       border: 1px solid #ccc; 
       border-radius: 4px; 
       box-sizing: border-box; 
       margin-top: 6px; 
       margin-bottom: 16px; 
-      resize: vertical 
+      resize: vertical;
+      -moz-appearance: textfield;
     }
     input[type=email], textarea {
-      width: 100%; 
+      width: 30%; 
       padding: 12px; 
       border: 1px solid #ccc; 
       border-radius: 4px; 
@@ -491,6 +504,7 @@
       resize: vertical 
     }
     input[type=submit] {
+  
     background-color: #612999;
     color: white;
     padding: 12px 20px;
