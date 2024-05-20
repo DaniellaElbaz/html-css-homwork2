@@ -83,7 +83,6 @@
        
        #cover-photo-section h2 {
         margin: 0px 32px;
-
         width: 448px;
         color: #612999;
         font-family: Nunito;
@@ -214,9 +213,8 @@
         z-index: 2;
        }
     
-       .flex-item h3{
+       .flex-item h2 {
         margin-right: 32px;
-        
         position:absolute;
         top: 297px;
         left: 32px;
@@ -228,9 +226,8 @@
         font-weight: 400;
         line-height: normal;
        }
-       .flex-item p{
+       .inscription-card {
         margin-right: 32px;
-        
         position:absolute;
         top: 342px;
         left: 32px;
@@ -241,8 +238,7 @@
         font-weight: 400;
         line-height: normal;
        }
-       .flex-item h2{
-       
+       .price {
         position:absolute;
         top: 415px;
         left: 32px;
