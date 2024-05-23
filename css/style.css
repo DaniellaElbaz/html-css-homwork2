@@ -1,22 +1,22 @@
   *{
     margin: 0;
     padding: 0;
-   }
-   header, nav, main, aside, section, article, footer,div {
+  }
+  header, nav, main, aside, section, article, footer,div {
     display: block;
-   }
-   body {
+  }
+  body {
     background-color: #Fff;
-   }
-   #wrapper {
+  }
+  #wrapper {
     margin: 0px 32px;
-   }
+  }
   header {
     margin-top: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   }
+  }
   #logo {
     margin: 0px 32px;
     background-image: url("../images/logo.png");
@@ -25,10 +25,10 @@
     display: block;
     height: 64px;
     width: 64px;
-   }
+  }
   a {
     text-decoration: none;
-   }
+  }
   #logo span {
     display: flex;
     position: relative;
@@ -40,9 +40,9 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 6px;
-    left: 64px;
+    left: 93px;
     top: 21px;
-   }
+  }
   nav {
     margin-right: 120px;
     text-align: right;
